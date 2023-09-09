@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  background-image: linear-gradient(to right, #0ba360 0%, #3cba92 100%);
+  background-image: linear-gradient(to right, #667eea 0%, #764ba2 100%);
 }
 
 .calculator-grid {
@@ -22,6 +22,7 @@ body {
   border: 1px solid white;
   outline: none;
   background-color: rgba(255, 255, 255, .75);
+  
 }
 
 .calculator-grid > button:hover,
