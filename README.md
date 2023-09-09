@@ -1,7 +1,7 @@
 
 # React - calculator
 
-# 🔗 [Live Preview]()
+# 🔗 [Live Preview](https://delightful-croquembouche-b37e40.netlify.app/)
 ![Design preview](./preview.png)
 
 ## About this project:
