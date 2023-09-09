@@ -11,6 +11,7 @@ export const ACTIONS = {
 }
 
 function reducer(state, { type, payload }) {
+  // eslint-disable-next-line
   switch (type) {
     case ACTIONS.ADD_DIGIT:
       if (state.overwrite) {
@@ -110,6 +111,7 @@ function evaluate({ currentOperand, previousOperand, operation }) {
   const current = parseFloat(currentOperand)
   if (isNaN(prev) || isNaN(current)) return ""
   let computation = ""
+  // eslint-disable-next-line
   switch (operation) {
     case "+":
       computation = prev + current
@@ -153,7 +155,6 @@ function App() {
 
       <button className="span-two" onClick={() => dispatch({ type: ACTIONS.CLEAR })}>AC</button>
       <button onClick={() => dispatch({ type: ACTIONS.DELETE_DIGIT })}>DEL</button>
-      {/* <Button digit="÷" dispatch={dispatch}/> */}
 
       <OperationButton operation="÷" dispatch={dispatch} />
       <Button digit="1" dispatch={dispatch} />
